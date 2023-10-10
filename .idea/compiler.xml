@@ -7,7 +7,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spingcloud" />
+        <module name="feign-user-service" />
         <module name="ribbon-consumer" />
+        <module name="feign-order-service" />
         <module name="eureka-client-B-1" />
         <module name="eureka-client-A-1" />
         <module name="ribbon-provider-2" />
@@ -24,6 +26,8 @@
       <module name="eureka-client-A-1" options="-parameters" />
       <module name="eureka-client-B-1" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
+      <module name="feign-order-service" options="-parameters" />
+      <module name="feign-user-service" options="-parameters" />
       <module name="ribbon-consumer" options="-parameters" />
       <module name="ribbon-provider-1" options="-parameters" />
       <module name="ribbon-provider-2" options="-parameters" />
