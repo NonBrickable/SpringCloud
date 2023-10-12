@@ -17,6 +17,18 @@
         <option value="$PROJECT_DIR$/ribbon-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/feign-order-service/pom.xml" />
         <option value="$PROJECT_DIR$/feign-user-service/pom.xml" />
+        <option value="$PROJECT_DIR$/hystrix-rent-car-service/pom.xml" />
+        <option value="$PROJECT_DIR$/hystrix-customer-service/pom.xml" />
+        <option value="$PROJECT_DIR$/03-feign-order-service/pom.xml" />
+        <option value="$PROJECT_DIR$/03-feign-user-service/pom.xml" />
+        <option value="$PROJECT_DIR$/02-ribbon-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/02-ribbon-provider-1/pom.xml" />
+        <option value="$PROJECT_DIR$/01-eureka-client-A-1/pom.xml" />
+        <option value="$PROJECT_DIR$/01-eureka-client-B-1/pom.xml" />
+        <option value="$PROJECT_DIR$/01-eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/02-ribbon-provider-2/pom.xml" />
+        <option value="$PROJECT_DIR$/04-hystrix-rent-car-service/pom.xml" />
+        <option value="$PROJECT_DIR$/04-hystrix-customer-service/pom.xml" />
       </list>
     </option>
   </component>

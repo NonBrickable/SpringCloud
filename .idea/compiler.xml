@@ -7,30 +7,31 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spingcloud" />
-        <module name="feign-user-service" />
-        <module name="ribbon-consumer" />
-        <module name="feign-order-service" />
-        <module name="eureka-client-B-1" />
-        <module name="eureka-client-A-1" />
-        <module name="ribbon-provider-2" />
-        <module name="eureka-server" />
-        <module name="ribbon-provider-1" />
+        <module name="04-hystrix-rent-car-service" />
+        <module name="01-eureka-client-A-1" />
+        <module name="02-ribbon-provider-1" />
+        <module name="01-eureka-client-B-1" />
+        <module name="01-eureka-server" />
+        <module name="03-feign-user-service" />
+        <module name="02-ribbon-provider-2" />
+        <module name="02-ribbon-consumer" />
+        <module name="03-feign-order-service" />
+        <module name="04-hystrix-customer-service" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="01-eureka" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="eureka-client-A-1" options="-parameters" />
-      <module name="eureka-client-B-1" options="-parameters" />
-      <module name="eureka-server" options="-parameters" />
-      <module name="feign-order-service" options="-parameters" />
-      <module name="feign-user-service" options="-parameters" />
-      <module name="ribbon-consumer" options="-parameters" />
-      <module name="ribbon-provider-1" options="-parameters" />
-      <module name="ribbon-provider-2" options="-parameters" />
+      <module name="01-eureka-client-A-1" options="-parameters" />
+      <module name="01-eureka-client-B-1" options="-parameters" />
+      <module name="01-eureka-server" options="-parameters" />
+      <module name="02-ribbon-consumer" options="-parameters" />
+      <module name="02-ribbon-provider-1" options="-parameters" />
+      <module name="02-ribbon-provider-2" options="-parameters" />
+      <module name="03-feign-order-service" options="-parameters" />
+      <module name="03-feign-user-service" options="-parameters" />
+      <module name="04-hystrix-customer-service" options="-parameters" />
+      <module name="04-hystrix-rent-car-service" options="-parameters" />
     </option>
   </component>
 </project>
