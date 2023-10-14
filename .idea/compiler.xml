@@ -17,6 +17,7 @@
         <module name="02-ribbon-consumer" />
         <module name="03-feign-order-service" />
         <module name="04-hystrix-customer-service" />
+        <module name="gateway" />
       </profile>
     </annotationProcessing>
   </component>
@@ -32,6 +33,7 @@
       <module name="03-feign-user-service" options="-parameters" />
       <module name="04-hystrix-customer-service" options="-parameters" />
       <module name="04-hystrix-rent-car-service" options="-parameters" />
+      <module name="gateway" options="-parameters" />
     </option>
   </component>
 </project>

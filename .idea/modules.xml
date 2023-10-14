@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ribbon-provider-1/02-ribbon-provider-1.iml" filepath="$PROJECT_DIR$/ribbon-provider-1/02-ribbon-provider-1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/02-ribbon-provider-2/02-ribbon-provider-2.iml" filepath="$PROJECT_DIR$/02-ribbon-provider-2/02-ribbon-provider-2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gateway/gateway.iml" filepath="$PROJECT_DIR$/gateway/gateway.iml" />
     </modules>
   </component>
 </project>

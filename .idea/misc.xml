@@ -29,6 +29,7 @@
         <option value="$PROJECT_DIR$/02-ribbon-provider-2/pom.xml" />
         <option value="$PROJECT_DIR$/04-hystrix-rent-car-service/pom.xml" />
         <option value="$PROJECT_DIR$/04-hystrix-customer-service/pom.xml" />
+        <option value="$PROJECT_DIR$/gateway/pom.xml" />
       </list>
     </option>
   </component>

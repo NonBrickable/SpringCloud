@@ -1,0 +1,30 @@
+server:
+    port: 80
+
+spring:
+    application:
+        name: gateway-server
+        #????????
+    cloud:
+        gateway:
+            enabled: true
+            routes:
+                -   id: order-service-route
+                    uri: http://localhost:8090
+                    predicates: #??????????????????????????????
+                        - Path=/doOrder
+                        - After=2023-10-14T11:54:53.862+08:00[Asia/Shanghai]
+                        - Query=name,admin.
+            discovery:
+                locator:
+                    enabled: true #??????
+                    lower-case-service-id: true #????????
+
+eureka:
+    client:
+        service-url:
+            defaultZone: http://localhost:8761/eureka
+        registry-fetch-interval-seconds: 3
+    instance:
+        hostname: localhost
+        instance-id: ${eureka.instance.hostname}:${spring.application.name}:${server.port}
